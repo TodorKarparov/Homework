@@ -50,6 +50,7 @@ void stringFindAndReplace(char string[], char gesucht[], char neuString[]){
          << " \n"
          << "New string: "
          << endl;
+    printString(string);
 }
 
 
@@ -65,7 +66,6 @@ int main () {
   cin.getline(neuString, 10000);
 
   stringFindAndReplace(string1, gesucht, neuString);
-  printString(string1);
 
   return 0;
 }
