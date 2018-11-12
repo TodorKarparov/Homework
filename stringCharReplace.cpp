@@ -17,7 +17,6 @@ char* replaceA(char* string, char oldChar, char newChar){
   return string;
 }
 
-*/
 int main() {
 
   char str1[10000];
